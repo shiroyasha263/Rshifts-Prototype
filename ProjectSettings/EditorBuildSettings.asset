@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 10900e62ba8bc494eb70df8a9e220334
+  - enabled: 1
+    path: Assets/Polygon-Provincial City/Scene/Demo_Day.unity
+    guid: 92eb0c3daec254944ace50560c1e0a77
   m_configObjects: {}

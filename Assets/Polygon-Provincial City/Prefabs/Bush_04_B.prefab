@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 256880390850868005}
   - component: {fileID: 3764803473521179776}
   - component: {fileID: 1430934695036717130}
-  - component: {fileID: 8246738366061871089}
+  - component: {fileID: 2059534013837618875}
   m_Layer: 0
   m_Name: Bush_04_B
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +81,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8246738366061871089
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2059534013837618875
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8650074700009780383, guid: 542e620d99222a44a85c8ffa4269b45d, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1.99, y: 1.0416589, z: 1.0623932}
+  m_Center: {x: 0.0024605393, y: 0.50150895, z: 0.00095793605}

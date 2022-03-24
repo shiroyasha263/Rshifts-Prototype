@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 331726175689938546}
   - component: {fileID: 3689957338921146839}
   - component: {fileID: 1500169196773666077}
-  - component: {fileID: 3366183007739004318}
+  - component: {fileID: 8508402127874839164}
   m_Layer: 0
   m_Name: Garage_02
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,8 +82,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3366183007739004318
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8508402127874839164
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,7 +93,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8324299481269956918, guid: c1bebfe729bb7f64281ef89d06942631, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 4.5410147, y: 3.644416, z: 5.730725}
+  m_Center: {x: -1.1827253, y: 1.822208, z: 1.0286353}

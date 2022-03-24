@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4829679226277865597}
   - component: {fileID: 8406439568788629464}
   - component: {fileID: 6002554441952121618}
-  - component: {fileID: 6350837003230185850}
+  - component: {fileID: 5950051077720435882}
   m_Layer: 0
   m_Name: Signboard_Cafe
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,8 +82,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6350837003230185850
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &5950051077720435882
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,7 +93,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 367301433830210843, guid: 7f7ac09d43cac614cafead84ce1d1605, type: 3}
+  m_Radius: 0.22
+  m_Height: 5.2735877
+  m_Direction: 1
+  m_Center: {x: 0.0019309521, y: 2.6367939, z: -0.0000014305115}

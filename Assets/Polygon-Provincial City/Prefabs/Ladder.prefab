@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2774418456748424044}
   - component: {fileID: 1238328777378493641}
   - component: {fileID: 3948419096392564739}
-  - component: {fileID: 5840994056208511835}
+  - component: {fileID: 6207751605843433288}
   m_Layer: 0
   m_Name: Ladder
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +81,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5840994056208511835
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6207751605843433288
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4411361228764603502, guid: 1e2745b5627ff4d45952185eb5922e5d, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.52275825, y: 3.8748767, z: 0.059098423}
+  m_Center: {x: -0.00000029802322, y: 1.9374276, z: -0.0007239878}

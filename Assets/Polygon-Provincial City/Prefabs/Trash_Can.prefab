@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 959597738018239718}
   - component: {fileID: 4251106247016151875}
   - component: {fileID: 2096990579321180041}
-  - component: {fileID: -6964365492470311546}
+  - component: {fileID: 3350554239581722106}
   m_Layer: 0
   m_Name: Trash_Can
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +81,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &-6964365492470311546
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3350554239581722106
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3660054878780362843, guid: b6bf1c09d373ddd4e9836e7eda5d6fb3, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.4238278, y: 0.5691804, z: 0.4238281}
+  m_Center: {x: 0.0000014007092, y: 0.2845902, z: -0.00000016391277}

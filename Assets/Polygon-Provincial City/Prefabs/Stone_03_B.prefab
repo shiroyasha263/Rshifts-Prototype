@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6903895166744763518}
   - component: {fileID: 7521094417182397403}
   - component: {fileID: 5729912226526291729}
-  - component: {fileID: 3216011802336954167}
+  - component: {fileID: 6127297607317343601}
   m_Layer: 0
   m_Name: Stone_03_B
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +81,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3216011802336954167
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6127297607317343601
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7875516068329740494, guid: d645907a83520574e94bef14c28ae76f, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 2.7103286, y: 1.6692373, z: 2.6138575}
+  m_Center: {x: -0.074135125, y: 0.45171338, z: 0.004684806}

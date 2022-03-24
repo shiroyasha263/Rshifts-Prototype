@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7840476157882683586}
   - component: {fileID: 6584592590887935847}
   - component: {fileID: 8972819015564766125}
-  - component: {fileID: -5993340253400781292}
+  - component: {fileID: 6181415591854942559}
   m_Layer: 0
   m_Name: Mailbox_03
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +81,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &-5993340253400781292
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &6181415591854942559
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +92,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8583881217991542213, guid: a2a6deee4fa47084d83eb4734429c695, type: 3}
+  m_Radius: 0.09
+  m_Height: 1.825012
+  m_Direction: 1
+  m_Center: {x: -0.02, y: 0.912506, z: 0.03}

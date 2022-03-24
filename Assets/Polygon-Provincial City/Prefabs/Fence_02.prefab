@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6727243855512429796}
   - component: {fileID: 7706823558435990337}
   - component: {fileID: 5553171953635860363}
-  - component: {fileID: 7647388858061197850}
+  - component: {fileID: 4010068521884033164}
   m_Layer: 0
   m_Name: Fence_02
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +81,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7647388858061197850
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4010068521884033164
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -975145788574905347, guid: a1cb47092c2968d4bbb3e40d72748237, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1.0985296, z: 0.06179905}
+  m_Center: {x: 0.011925459, y: 0.5492648, z: -0.015900731}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5011434468968849182}
   - component: {fileID: 8224675232800460987}
   - component: {fileID: 6180941748321559665}
-  - component: {fileID: 7753995739728705978}
+  - component: {fileID: 5775988468860863592}
   m_Layer: 0
   m_Name: House_08
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,8 +82,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7753995739728705978
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5775988468860863592
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,7 +93,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -442241556117278055, guid: 3897058813395e14a8372dfe320cd115, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 12.71, y: 5.9808726, z: 14.3}
+  m_Center: {x: 0, y: 3.0904362, z: -0.2}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6848862585674539285}
   - component: {fileID: 7540107323484090032}
   - component: {fileID: 5712570801782774394}
-  - component: {fileID: 3787858377445713920}
+  - component: {fileID: 3018071245241976365}
   m_Layer: 0
   m_Name: School_Sign
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,8 +82,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3787858377445713920
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3018071245241976365
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,7 +93,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1115113708302734355, guid: 0ff1bd01cbe752e4c9aab50e346d1b61, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.4341984, y: 1.1505094, z: 0.44379094}
+  m_Center: {x: -0.0000023245811, y: 0.5752547, z: 0.00000022351742}

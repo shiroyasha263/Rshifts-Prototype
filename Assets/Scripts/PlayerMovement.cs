@@ -48,6 +48,11 @@ public class PlayerMovement : MonoBehaviour
                 playerVelocity.y = 0f;
             }
 
+            if (Input.GetButtonDown("Fire1"))
+            {
+                jetpack = !jetpack;
+            }
+
             controller.Move(move * Time.deltaTime * playerSpeed);
 
             if (Input.GetButton("Jump") && jetpack)

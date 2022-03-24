@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 8555132787220129782}
   - component: {fileID: 4689993666633312339}
   - component: {fileID: 7418206137638608025}
-  - component: {fileID: 9135265050027569672}
-  - component: {fileID: 2673657753097396330}
+  - component: {fileID: -4523596036336589377}
   m_Layer: 0
   m_Name: Ground_04
   m_TagString: Untagged
@@ -57,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,7 +81,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &9135265050027569672
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-4523596036336589377
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,17 +95,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 0, z: 4}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!64 &2673657753097396330
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9075385872034954572}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3179176536467181785, guid: 0e6679f2d8ca0e344a7c2d3a8bdbb12b, type: 3}

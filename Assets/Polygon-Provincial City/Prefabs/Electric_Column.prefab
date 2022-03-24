@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 656469185772605411}
   - component: {fileID: 4518206271219318854}
   - component: {fileID: 1825950042350466188}
-  - component: {fileID: 1533826479861266425}
+  - component: {fileID: 3009284860141177683}
   m_Layer: 0
   m_Name: Electric_Column
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +81,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1533826479861266425
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &3009284860141177683
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +92,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5690527377367057180, guid: 05beaedc08b131f4db7944a95d018608, type: 3}
+  m_Radius: 0.08
+  m_Height: 5.9999995
+  m_Direction: 1
+  m_Center: {x: -0.019435167, y: 3.0000002, z: 0.019435167}

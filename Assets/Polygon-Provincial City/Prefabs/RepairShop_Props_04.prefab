@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8593840862133835800}
   - component: {fileID: 4678306725667166141}
   - component: {fileID: 7424281188608942967}
-  - component: {fileID: 252913756587863838}
+  - component: {fileID: 7243367616273708268}
   m_Layer: 0
   m_Name: RepairShop_Props_04
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,8 +81,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &252913756587863838
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7243367616273708268
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +92,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3653508804887667767, guid: 4324d83760534ec469d238edba80ccb6, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.53555167, y: 2.0334845, z: 2.046373}
+  m_Center: {x: -0.030396566, y: -0.2296173, z: -0.048672587}

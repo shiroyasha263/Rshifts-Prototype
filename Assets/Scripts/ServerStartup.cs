@@ -24,6 +24,6 @@ public class ServerStartup : MonoBehaviourPunCallbacks
     }
     public override void OnJoinedRoom()
     {
-        PhotonNetwork.LoadLevel("Game");
+        PhotonNetwork.LoadLevel("Demo_Day");
     }
 }

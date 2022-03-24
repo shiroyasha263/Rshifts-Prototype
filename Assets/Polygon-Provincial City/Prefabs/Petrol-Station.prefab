@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4620410255867473785}
   - component: {fileID: 8624715652021772508}
   - component: {fileID: 5788764315294274582}
-  - component: {fileID: -3870904317060484050}
+  - component: {fileID: 3680931795147022112}
   m_Layer: 0
   m_Name: Petrol-Station
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,8 +82,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &-3870904317060484050
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3680931795147022112
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -91,7 +93,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5891583887593001116, guid: b9e63c52ce75d874baf6b0e05dff320f, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.7369436, y: 1.32, z: 0.43145657}
+  m_Center: {x: -0.0000007748604, y: 0.7, z: 0.00000047683716}

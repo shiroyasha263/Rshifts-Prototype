@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7238178594276967332}
   - component: {fileID: 6042975837068200961}
   - component: {fileID: 8374445466953775307}
-  - component: {fileID: -4488706872549226250}
+  - component: {fileID: 1949581705735199428}
   m_Layer: 0
   m_Name: Ice_Cream
   m_TagString: Untagged
@@ -56,6 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -83,8 +84,9 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &-4488706872549226250
-MeshCollider:
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1949581705735199428
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -93,7 +95,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2807201270885973526, guid: 66bb428dd153dc04b81d1860dd472ca3, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 6.013335, y: 4.2861876, z: 5.2777047}
+  m_Center: {x: 0.2711805, y: 2.1430938, z: -0.025702953}
